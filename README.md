@@ -1,96 +1,80 @@
-# React + Vite + shadcn/ui Starter Template
+# Opportune 🚀
 
-A modern React starter template built with Vite, TypeScript, Tailwind CSS, and shadcn/ui components.
+An AI-powered opportunity management platform that helps students, job seekers, and professionals organize applications, track deadlines, and never miss important opportunities.
 
-## 🚀 Features
+## 📌 About
 
-- ⚡️ **Vite** - Fast build tool and development server
-- ⚛️ **React 18** - Latest React with hooks support
-- 🎯 **TypeScript** - Type safety and better developer experience
-- 🎨 **Tailwind CSS** - Utility-first CSS framework
-- 🧩 **shadcn/ui** - Beautifully designed components built with Radix UI
-- 📦 **Path Mapping** - Clean imports with `@/` prefix
+Finding opportunities has become a daily routine for many people. Jobs, internships, scholarships, fellowships, and hackathons are scattered across LinkedIn, websites, emails, and social media platforms, making it difficult to keep track of applications and deadlines.
 
-## 📦 Included shadcn/ui Components
+**Opportune** helps users collect and manage these opportunities in one place.
 
-- Button
-- Card
-- Input
-- Label
-- Badge
-- Dialog
-- And more...
+Users can paste an opportunity link or description, and AI extracts important details such as:
 
-## 🛠️ Getting Started
+- Opportunity title
+- Organization
+- Type (job, internship, scholarship, fellowship, etc.)
+- Deadline
+- Eligibility requirements
+- Important information
 
-1. **Install dependencies**
+Users can then track their application progress from discovery to completion.
 
-   ```bash
-   npm install
-   ```
+## ✨ Features
 
-2. **Start development server**
+### Current Features
 
-   ```bash
-   npm run dev
-   ```
+- User-friendly opportunity dashboard
+- Application status tracking
+- Organized opportunity details
+- Responsive user interface
 
-3. **Build for production**
+### Coming Soon
 
-   ```bash
-   npm run build
-   ```
+- 🔐 User authentication
+- 🤖 AI-powered opportunity analysis
+- 📅 Deadline reminders through email
+- 🔎 Automatic information extraction from links
+- 📊 Application progress insights
 
-4. **Preview production build**
-   ```bash
-   npm run preview
-   ```
+## 🛠️ Tech Stack
 
-## 📁 Project Structure
+### Frontend
 
-```
-src/
-├── components/
-│   └── ui/              # shadcn/ui components
-├── lib/
-│   └── utils.ts         # Utility functions
-├── App.tsx              # Main application component
-├── index.css            # Global styles with Tailwind
-└── main.tsx             # Application entry point
-```
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+- shadcn/ui
 
-## 🎨 Customization
+### Backend (Coming Soon)
 
-### Adding New shadcn/ui Components
+- Django REST Framework
+- PostgreSQL
+- AI integration
+- Email notification system
 
-This template is pre-configured with shadcn/ui. You can add more components by creating them in the `src/components/ui/` directory.
-
-### Tailwind Configuration
-
-The Tailwind configuration is set up with shadcn/ui color variables. You can customize colors and other design tokens in:
-
-- `tailwind.config.js` - Tailwind configuration
-- `src/index.css` - CSS custom properties for themes
-
-### TypeScript Configuration
-
-Path mapping is configured for clean imports:
-
-```typescript
-import { Button } from "@/components/ui/button";
-import { cn } from "@/lib/utils";
-```
-
-## 🌗 Dark Mode
-
-The template includes dark mode support through Tailwind's `dark:` classes and CSS custom properties.
-
-## 📚 Learn More
-
-- [Vite Documentation](https://vitejs.dev/)
-- [React Documentation](https://react.dev/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [shadcn/ui](https://ui.shadcn.com/)
-- [Radix UI](https://www.radix-ui.com/)
+## 📂 Project Structure
+Opportune/
+│
+├── frontend/
+│ ├── src/
+│ ├── public/
+│ ├── package.json
+│ └── vite.config.ts
+│
+└── backend/
+└── (coming soon)
 
 
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/Bethel-21/Opportune.git
+
+cd frontend
+npm install
+npm run dev
+
+http://localhost:5173
